@@ -1,0 +1,4 @@
+Dim speaks, speech
+speaks="muitas coisas"
+Set speech=CreateObjects("sapi.spvoice")
+speech.Speak speaks
